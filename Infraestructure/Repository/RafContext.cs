@@ -429,5 +429,11 @@ namespace Infraestructure.Repository
             }
             return index;
         }
+
+        public List<T> GetActivoFijoByEmpleado<T>(int id)
+        {
+            List<T> elxocas = new List<T>();
+            return elxocas;
+        }
     }
 }

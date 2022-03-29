@@ -48,7 +48,6 @@
     <Compile Include="Repository\BinaryReaderExtension.cs" />
     <Compile Include="Repository\ListActivoRepository.cs" />
     <Compile Include="Repository\RafContext.cs" />
-    <Compile Include="Repository\RafContextEmpleado.cs" />
     <Compile Include="Repository\StreamActivoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
