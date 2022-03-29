@@ -10,6 +10,7 @@ namespace Domain.Entities
     public class Activo
     {
         public int Id { get; set; }
+        public string Descripcion { get; set; }
         public String Nombre { get; set; }
         public double Valor { get; set; }
         public int VidaUtil { get; set; }

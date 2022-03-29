@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Linq.Expressions;
@@ -10,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Infraestructure.Repository
 {
-    public class RAFContext
+    public class RafContextEmpleado
     {
         private string fileName;
         private int size;
 
-        public RAFContext(string fileName, int size)
+        public RafContextEmpleado(string fileName, int size)
         {
             this.fileName = fileName;
             this.size = size;
