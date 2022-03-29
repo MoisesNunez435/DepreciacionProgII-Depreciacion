@@ -44,6 +44,7 @@
     <Compile Include="Entities\Activo.cs" />
     <Compile Include="Entities\Empleado.cs" />
     <Compile Include="Enum\Depreciacion.cs" />
+    <Compile Include="Enum\EstadoActivo.cs" />
     <Compile Include="Enum\EstadoEmpleado.cs" />
     <Compile Include="Interfaces\IActivoModel.cs" />
     <Compile Include="Interfaces\IDepreciacionModel.cs" />

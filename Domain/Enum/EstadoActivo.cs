@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Enum
 {
-    public enum EstadoEmpleado
+    public enum EstadoActivo
     {
-        Despedido,
-        Disponible,
-        Subsidio,
-        Vacaciones,
-
+        MalEstado, 
+        Reparacion,
+        Asignado,
+        Disponible
     }
 }
